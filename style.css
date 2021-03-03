@@ -34,6 +34,7 @@
 }
 
 .modal.active {
+    transition:  800ms ease-in-out;
     transform: translate(-50%, -50%) scale(1);
 }
 
@@ -63,15 +64,17 @@
     border: none;
     outline: none;
     background: none;
-    font-size: 2.75rem;
+    font-size: 2rem;
     font-family: Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
     font-weight: bold;
+    margin: 5px 10px 5px 5px;
 }
 
 .modal-header .close-button:hover {
-    color: white;
+    color: black;
     background-color:#bd271a;
     transition:  500ms ease-in-out;
+
 }
 
 .modal-body {
